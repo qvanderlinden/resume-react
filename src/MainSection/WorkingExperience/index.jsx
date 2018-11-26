@@ -12,11 +12,13 @@ const items = [
     tags: [
       "React",
       "Redux",
-      "Electron",
+      "Redux-Saga",
       "Mapbox",
+      "Deck.gl",
+      "Electron",
+      "Node.js",
       "Express.js",
       "TypeScript",
-      "Node.js",
       "Python",
       "Linux",
       "Heroku"
