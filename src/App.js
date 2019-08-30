@@ -1,37 +1,37 @@
-import React, { Component } from "react"
-import styled, { ThemeProvider } from "styled-components"
+import React, { Component } from 'react';
+import styled, { ThemeProvider } from 'styled-components';
 
-import MainSection from "./MainSection"
-import SideSection from "./SideSection"
+import MainSection from './MainSection';
+import SideSection from './SideSection';
 
 // in %
-const MAIN_SECTION_WIDTH = 75
+const MAIN_SECTION_WIDTH = 75;
 
 const theme = {
-  "primary-color": "#03b5aa",
-  "secondary-color": "black",
-  "superlight-gray": "#f9f9f9",
-  "light-gray": "#ededed",
-  "dark-gray": "#5f5f5f"
-}
+  'primary-color': '#03b5aa',
+  'secondary-color': 'black',
+  'superlight-gray': '#f9f9f9',
+  'light-gray': '#ededed',
+  'dark-gray': '#5f5f5f',
+};
 
 const Container = styled.div`
   height: 100%;
-  color: ${props => props.theme["dark-gray"]};
-  font-family: "Montserrat", sans-serif;
+  color: ${props => props.theme['dark-gray']};
+  font-family: 'Montserrat', sans-serif;
   font-size: 10pt;
   line-height: 14pt;
-`
+`;
 const MainSectionContainer = styled.div`
   float: left;
   width: ${MAIN_SECTION_WIDTH}%;
   height: 100%;
-`
+`;
 const SideSectionContainer = styled.div`
   float: left;
   width: ${100 - MAIN_SECTION_WIDTH}%;
   height: 100%;
-`
+`;
 
 class App extends Component {
   render() {
@@ -46,8 +46,8 @@ class App extends Component {
           </SideSectionContainer>
         </Container>
       </ThemeProvider>
-    )
+    );
   }
 }
 
-export default App
+export default App;
