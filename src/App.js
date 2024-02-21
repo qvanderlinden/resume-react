@@ -16,21 +16,19 @@ const theme = {
 };
 
 const Container = styled.div`
-  height: 100%;
   color: ${props => props.theme['dark-gray']};
   font-family: 'Montserrat', sans-serif;
   font-size: 10pt;
   line-height: 14pt;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 210px;
 `;
 const MainSectionContainer = styled.div`
-  float: left;
-  width: ${MAIN_SECTION_WIDTH}%;
   height: 100%;
 `;
 const SideSectionContainer = styled.div`
-  float: left;
-  width: ${100 - MAIN_SECTION_WIDTH}%;
-  height: 100%;
+  height: 280mm;
 `;
 
 class App extends Component {

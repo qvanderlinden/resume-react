@@ -10,7 +10,7 @@ const TitleContainer = styled.div`
   color: ${props => props.theme["secondary-color"]};
 `
 const ItemContainer = styled.div`
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 `
 
 const ItemGroup = ({ title, items }) => (

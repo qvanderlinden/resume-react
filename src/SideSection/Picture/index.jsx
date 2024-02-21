@@ -9,6 +9,8 @@ const Container = styled.div`
   overflow: hidden;
 `
 
-const Picture = () => <Container />
+const Picture = () => <Container>
+  <img src={process.env.PUBLIC_URL + '/images/profile.jpeg'} alt="description" />
+</Container>
 
 export default Picture

@@ -18,13 +18,13 @@ const items = [
           applied to finance, machine learning, epidemiology, quantitative
           energy economics, tsunami dynamics, etc.
         </div>
-        {/* <div>
+        <div>
           My master’s thesis was called "Structure Mining in Complex Networks",
           and was supervised by Jean-Charles Delvenne. In that context, I
           designed 3 optimization algorithms based on modularity maximization to
           perform fuzzy community detection. Then, I compared them with state of
           the art algorithms on battle-tested benchmarks.
-        </div> */}
+        </div>
       </div>
     ),
     tags: ['Python', 'C', 'Java', 'MATLAB', 'LaTeX', 'AMPL'],

@@ -12,8 +12,8 @@ const Link = styled.a`
 const MailTo = ({ email }) => <Link href={`mailto:${email}`}>{email}</Link>
 
 const items = [
+  <MailTo email="quentin.vanderlinden@gmail.com" />,
   "+32 (0) 478 03 57 28",
-  <MailTo email="quentin.vanderlinden@gmail.com" />
 ]
 
 const Contact = () => <ItemGroup title="Contact" items={items} />

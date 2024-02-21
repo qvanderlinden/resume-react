@@ -11,6 +11,9 @@ const Link = styled.a`
 
 const items = [
   <div>
+    2x Ironman 70.3 finisher & 1x Ironman finisher
+  </div>,
+  <div>
     3rd place at the{" "}
     <Link
       target="_blank"

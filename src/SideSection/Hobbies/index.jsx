@@ -3,11 +3,9 @@ import React from "react"
 import ItemGroup from "../Components/ItemGroup"
 
 const items = [
-  "Endurance sports (running, cycling)",
-  "Racket sports (squash, tennis, badminton)",
+  "Sports (cycling, triathlon, padel)",
   "Watching TV shows and YouTube videos",
-  "Listening to music",
-  "Coding challenges"
+  "Listening to music"
 ]
 
 const Hobbies = () => <ItemGroup title="Hobbies" items={items} />

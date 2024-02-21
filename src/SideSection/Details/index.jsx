@@ -3,9 +3,9 @@ import React from 'react';
 import ItemGroup from '../Components/ItemGroup';
 
 const items = [
-  'Belgian, single',
+  'Belgian, dad of Tasco 🐕',
   'Born May 14, 1991',
-  "Rue de l'Argentine 59/1, 1310 La Hulpe",
+  "Petite Corniche 9, 5340 Gesves",
 ];
 
 const Details = () => <ItemGroup title="Details" items={items} />;
