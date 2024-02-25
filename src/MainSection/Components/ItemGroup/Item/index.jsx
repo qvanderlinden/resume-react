@@ -10,7 +10,7 @@ const VerticalBar = styled.div`
   border-radius: 3px;
   flex-shrink: 0;
   background-color: ${props => props.theme["light-gray"]};
-  margin-right: 15px;
+  margin-right: 16px;
 `
 const Content = styled.div`
   width: 100%;

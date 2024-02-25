@@ -6,7 +6,7 @@ import ProgressBar from "../Components/ProgressBar"
 
 const Container = styled.div`
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 `
 
 const LanguageLevel = ({ title, level }) => (

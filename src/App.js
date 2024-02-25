@@ -4,9 +4,6 @@ import styled, { ThemeProvider } from 'styled-components';
 import MainSection from './MainSection';
 import SideSection from './SideSection';
 
-// in %
-const MAIN_SECTION_WIDTH = 75;
-
 const theme = {
   'primary-color': '#03b5aa',
   'secondary-color': 'black',
@@ -18,17 +15,17 @@ const theme = {
 const Container = styled.div`
   color: ${props => props.theme['dark-gray']};
   font-family: 'Montserrat', sans-serif;
-  font-size: 10pt;
+  font-size: 9pt;
   line-height: 14pt;
   height: fit-content;
   display: grid;
-  grid-template-columns: 1fr 210px;
+  grid-template-columns: 1fr 160px;
 `;
 const MainSectionContainer = styled.div`
   height: 100%;
 `;
 const SideSectionContainer = styled.div`
-  height: 280mm;
+  height: 284mm;
 `;
 
 class App extends Component {

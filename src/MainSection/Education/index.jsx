@@ -10,7 +10,7 @@ const items = [
     text: (
       <div>
         <div style={{ marginBottom: '8pt' }}>
-          This master revolves around the concept of mathematical model to solve
+          This master revolves around using mathematical models to solve
           complex interdisciplinary engineering problems. Students learn how to
           solve these problems through training in mathematical modelling,
           simulation and optimization. More specifically (but not exhaustively),

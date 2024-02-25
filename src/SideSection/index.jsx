@@ -10,7 +10,7 @@ import Misc from './Misc';
 
 const Container = styled.div`
   height: 100%;
-  padding: 30px;
+  padding: 24px;
   background-color: ${props => props.theme['superlight-gray']};
   font-size: 0.9em;
 `;
@@ -19,22 +19,22 @@ const PictureContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 const DetailsContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 const ContactContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 const LanguagesContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 const HobbiesContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 const MiscContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 `;
 
 const MainSection = () => (

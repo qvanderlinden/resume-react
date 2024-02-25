@@ -8,17 +8,17 @@ import Education from "./Education"
 
 const Container = styled.div`
   height: 100%;
-  padding: 40px;
+  padding: 32px;
   text-align: justify;
 `
 const NameContainer = styled.div`
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 `
 const DescriptionContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 `
 const ItemGroupContainer = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 `
 
 const MainSection = () => (

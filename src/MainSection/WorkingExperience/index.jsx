@@ -9,14 +9,11 @@ const items = [
     location: 'Enobase, Brussels',
     text: (
       <div>
-        I am currently working on tooling to generate TypeScript database migrations based on a declarative schema.
+        I'm currently helping a friend on his startup idea while looking for my next mission. I'm developing in-house tooling to detect changes made to a declarative database schema in order to automatically generate TypeScript-based database migrations.
       </div>
     ),
     tags: [
-      'React',
-      'Next.js',
       'TypeScript',
-      'Trigger.dev',
       'Postgres',
       'Kysely',
     ],
@@ -27,15 +24,21 @@ const items = [
     location: 'Embie, Brussels',
     text: (
       <div>
-        I helped digitalizing the subsidies processes for WBI by developing a brand new web platform where citizens can issue subsidies requests for their projects abroad and track their status throughout the multiple steps. WBI agents can also use the platform to review the requests, ask for modifications, ask for validations of their superiors, and many other administrative tasks.
+        <p>I helped digitalizing the subsidies processes for a client of Embie by developing a brand new web platform where citizens/companies can issue subsidies requests for their projects abroad and track their status throughout the project lifecycle. The platform also enables the client agents to review the requests, ask for modifications, and perform many other administrative tasks.</p>
+        <p>In addition to my technical role, I also provided some guidance on following an agile way of working and coaching to more junior developers.</p>
       </div>
     ),
     tags: [
       'React',
       'Next.js',
       'TypeScript',
+      'tRPC',
       'State machine',
-      'GraphQL'
+      'GraphQL',
+      'Docker',
+      'Kubernetes',
+      'Github Actions',
+      'Keycloak'
     ],
   },
   {
@@ -44,8 +47,9 @@ const items = [
     location: 'IMEC, Leuven',
     text: (
       <div>
-        <p>For the first 3 years, I worked on a plethora of prototyping projects related to smart cities, as well as tooling to enable them. The projects were for research purposes and their ultimate goal was to empower decision makers and citizen with map visualizations displaying sensor data. </p>
-        <p>For the last few months, I worked on a data science project related to urban mobility to better understand how pedestrians, cyclist and cars moved in flemish cities. The findings could then be used to improve the city mobility infrastructure and/or predict the influence of closing particular roads on neighboring streets.</p>
+        <p>At first, I worked on several prototyping projects related to smart cities and developed in-house tooling to enable them. The projects were developed for research purposes and their ultimate goal was to empower decision makers and citizen with map visualizations displaying sensor data to make informed decisions. </p>
+        <p>Then, I joined the Digital Twin team where I focused more on backend development and I developed and maintained a variety of micro-services, discovered event streams processing with Kafka, touched on DevOps, learned infrastructure as code, etc.</p>
+        <p>For the last few months, I worked on a data science project related to urban mobility to better understand how pedestrians, cyclists and cars move in flemish cities. The findings could then be used to improve the city mobility infrastructure and/or predict the influence of closing particular roads on neighboring streets. I was involved in all the steps of the project, namely data acquisition (static datasets and scraping web APIs), data transformation and cleansing, modelling (a convex optimization program based on dynamics equations), model validation and output interpretation. </p>
       </div>
     ),
     tags: [
@@ -55,9 +59,11 @@ const items = [
       'Mapbox',
       'Deck.gl',
       'GraphQL',
+      'Kafka',
       'Docker',
       'Kubernetes',
-      'DevOps',
+      'Azure DevOps',
+      'Terraform',
       'Express.js',
       'TypeScript',
       "Python",
@@ -89,14 +95,14 @@ const items = [
     period: 'Oct. 2015 - Nov. 2016',
     location: 'Computer Sciences Corporation, Zaventem',
     text:
-    'I worked as a data scientist for the Big Data & Analytics department. For the majority of my employment there, I worked on a business intelligence project for one of the top players in the insurance industry in Belgium. My role was mainly maintenance of the existing enterprise data warehouse but I also had the chance to implement a few ETL workflows. The rest of my time was split on several smaller projects related to location intelligence.',
+    'I worked as a data scientist for the Big Data & Analytics department. For the majority of my employment there, I worked on a business intelligence project for one of the top players in the insurance industry in Belgium, for whom we built a data warehouse using the data vault architecture. My role was mainly maintenance but I also had the chance to implement a few ETL workflows. The rest of my time was split on several smaller projects where I used Python and QGIS to perform location intelligence.',
     tags: ['Google Maps Platform', 'Python', 'SQL', 'QGIS'],
   },
 ];
 const WorkingExperience = () => (
   <>
   <ItemGroup title="Working Experience" items={items.slice(0, 3)} />
-  <div style={{ height: 120 }}></div>
+  <div style={{ height: 32 }}></div>
   <ItemGroup items={items.slice(3)} />
   </>
 );
