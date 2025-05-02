@@ -7,9 +7,8 @@ const Container = styled.div`
 
 const Description = () => (
   <Container>
-    I am a freelance fullstack software engineer with a strong mathematics background and data science experience.
-    I am currently targeting projects in Next.js fullstack development, more backend-focused, DevOps, and data engineering.
-    I am also a mathematics enthusiast who loves solving challenging problems using algorithms and data processing.
+    I am a freelance fullstack software engineer with several years of experience developing web applications and data science solutions. My preferred technologies are Next.js and Python. I also like working on more backend-focused & DevOps projects.
+    I am a very quantitative person and mathematics enthusiast also looking for ML/AI engineering opportunities.
   </Container>
 );
 
